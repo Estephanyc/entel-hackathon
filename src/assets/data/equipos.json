@@ -60,6 +60,19 @@
     "sensor1":"dfffsdf",
     "sensor2":"sdadslll",
     "sensor3":"lkskcks"
-}}
+}},
 
+{"nombre":"detector de humo",
+  "id": "aassdd",
+  "fecha_inicio": "21-julio-2005",
+  "modelo": "opalux",
+  "recinto": "entel",
+  "estado": "activo",
+  "coordenadas":{
+    "latitud":"-36.8282",
+    "longitud": "-73.0514"
+  },
+  "sensores":{
+    "sensor1":"1122"
+}}
 ]

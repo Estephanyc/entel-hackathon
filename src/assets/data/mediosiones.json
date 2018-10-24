@@ -1,0 +1,127 @@
+{
+  "123asd456jkl": {
+    "22-enero-2017": {
+      "temperatura": "25°C",
+      "corriente": "80 amperes",
+      "velocidad_del_viento": "47 km/hr"
+    },
+    "23-enero-2017": {
+      "temperatura": "27°C",
+      "corriente": "65 amperes",
+      "velocidad_del_viento": "80 km/hr"
+    },
+    "24-enero-2017": {
+      "temperatura": "29°C",
+      "corriente": "70 amperes",
+      "velocidad_del_viento": "30 km/hr"
+    },
+    "25-enero-2017": {
+      "temperatura": "21°C",
+      "corriente": "85 amperes",
+      "velocidad_del_viento": "50 km/hr"
+    },
+    "26-enero-2017": {
+      "temperatura": "23°C",
+      "corriente": "90 amperes",
+      "velocidad_del_viento": "60 km/hr"
+    }
+  },
+  "098yutyul": {
+    "04-febrero-2010":{
+      "presion": "10 hPa",
+      "frecuencia _cardiaca": "75 por minuto",
+      "humedad_del_ambiente": "48%"
+    },
+    "05-febrero-2010":{
+      "presion": "12 hPa",
+      "frecuencia _cardiaca": "70 por minuto",
+      "humedad_del_ambiente": "58%"
+    },
+    "06-febrero-2010":{
+      "presion": "15 hPa",
+      "frecuencia _cardiaca": "85 por minuto",
+      "humedad_del_ambiente": "60%"
+    },
+    "07-febrero-2010":{
+      "presion": "10 hPa",
+      "frecuencia _cardiaca": "80 por minuto",
+      "humedad_del_ambiente": "65%"
+    },
+    "08-febrero-2010":{
+      "presion": "18 hPa",
+      "frecuencia _cardiaca": "65 por minuto",
+      "humedad_del_ambiente": "40%"
+    }
+  },
+  "dfghjkl":{
+    "12-abril-2012":{
+      "aceleracion": "50 Hz",
+      "nivel_de_combustible": "50%",
+      "kilometraje": "386290 km"
+    },
+    "13-abril-2012":{
+      "aceleracion": "55 Hz",
+      "nivel_de_combustible": "25%",
+      "kilometraje": "386590 km"
+    },
+    "14-abril-2012":{
+      "aceleracion": "60 Hz",
+      "nivel_de_combustible": "100%",
+      "kilometraje": "386690 km"
+    },
+    "15-abril-2012":{
+      "aceleracion": "70 Hz",
+      "nivel_de_combustible": "10%",
+      "kilometraje": "386750 km"
+    },
+    "16-abril-2012":{
+      "aceleracion": "55Hz",
+      "nivel_de_combustible": "80%",
+      "kilometraje": "386810 km"
+    }
+  },
+  "rtyuuo":{
+    "04-junio-2016":{
+      "Temperatura_del_combustible": "18°C",
+      "voltios": "180 V",
+      "altitud": "5000 mts"
+    },
+    "05-junio-2016":{
+      "Temperatura_del_combustible": "16°C",
+      "voltios": "195 V",
+      "altitud": "5200 mts"
+    },
+    "06-junio-2016":{
+      "Temperatura_del_combustible": "19°C",
+      "voltios": "170 V",
+      "altitud": "5900 mts"
+    },
+    "07-junio-2016":{
+      "Temperatura_del_combustible": "18°C",
+      "voltios": "175 V",
+      "altitud": "5300 mts"
+    },
+    "08-junio-2016":{
+      "Temperatura_del_combustible": "16°C",
+      "voltios": "190 V",
+      "altitud": "5000 mts"
+    }
+  },
+  "aassdd":{
+    "12-agosto-2006":{
+      "particulas_de_humo": "0 milimicras"
+    },
+    "13-agosto-2006":{
+      "particulas_de_humo": "0 milimicras"
+    },
+    "14-agosto-2006":{
+      "particulas_de_humo": "2 milimicras"
+    },
+    "15-agosto-2006":{
+      "particulas_de_humo": "1 milimicras"
+    },
+    "16-agosto-2006":{
+      "particulas_de_humo": "0 milimicras"
+    }
+  }
+}
