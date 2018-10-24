@@ -1,7 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
 //routing
 import { RouterModule, Routes } from '@angular/router';
+
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppComponent } from './app.component';
 import { GerencialComponent } from './pages/gerencial/gerencial.component';
@@ -38,14 +42,12 @@ const appRoutes: Routes = [
     EquipoComponent,
     SensorComponent,
     HeadersComponent,
-    
-    
-    
+      
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),//ruta
-    
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
