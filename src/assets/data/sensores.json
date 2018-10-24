@@ -1,27 +1,54 @@
 {
   "gfhsnt45": {
-    "temperatura":"25°C",      
-    "equipo":"123asd456jkl"
+    "temperatura": "25°C",
+    "id": "123asd456jkl"
   },
   "nbkdshsid": {
-    "corriente":"80 ampere",
-    "equipo":"123asd456jkl"
-    },
-    "ty67w90s":{
-      "velocidad del viento":"47 km/hr",
-      "equipo":"123asd456jkl"
-    },
+    "corriente": "80 ampere",
+    "id": "123asd456jkl"
+  },
 
-    "1234": {
-      "presion":"10 hPa",      
-      "equipo":"098yutyul"
-    },
-    "abcdf": {
-      "frecuencia cardiaca":"75 por minuto",
-      "equipo":"098yutyul"
-      },
-      "opiuy":{
-        "humedad del ambiente":"48%",
-        "equipo":"098yutyul"
-      }
+  "ty67w90s": {
+    "velocidad_del_viento": "47 km/hr",
+    "id": "123asd456jkl"
+  },
+  "1234": {
+    "presion": "10 hPa",
+    "id": "098yutyul"
+  },
+  "abcdf": {
+    "frecuencia _cardiaca": "75 por minuto",
+    "id": "098yutyul"
+  },
+  "opiuy": {
+    "humedad_del_ambiente": "48%",
+    "id": "098yutyul"
+  },
+
+  "asxq": {
+    "aceleracion": "50 Hz",
+    "id": "dfghjkl"
+  },
+  "pomn": {
+    "nivel_de_combustible": "50%",
+    "id": "dfghjkl"
+  },
+  "ubvcg": {
+    "kilometraje": "386290 km",
+    "id": "dfghjkl"
+  },
+
+  "dfffsdf": {
+    "Temperatura_del_combustible": "18°C",
+    "id": "rtyuuol"
+  },
+  "sdadslll": {
+    "voltios": "180 V",
+    "id": "rtyuuol"
+  },
+
+  "lkskcks": {
+    "altitud": "5000 mts",
+    "id": "rtyuuol"
   }
+}
