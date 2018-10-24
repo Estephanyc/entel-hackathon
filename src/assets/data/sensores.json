@@ -14,14 +14,18 @@
 
     "1234": {
       "presion":"10 hPa",      
-      "equipo":"123asd456jkl"
+      "equipo":"098yutyul"
     },
     "abcdf": {
-      "corriente":"80 ampere",
-      "equipo":"123asd456jkl"
+      "frecuencia cardiaca":"75 por minuto",
+      "equipo":"098yutyul"
       },
       "opiuy":{
-        "velocidad del viento":"47 km/hr",
-        "equipo":"123asd456jkl"
+        "humedad del ambiente":"35%",
+        "equipo":"098yutyul"
+      },
+      "yyyyy":{
+        "presion ambiental":"35%",
+        "equipo":"098yutyul"
       }
   }
