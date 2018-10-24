@@ -17,12 +17,4 @@ export class DataService {
   sensores(){
     return this.httpDataEquipos
   }
-  equipoId(id){
-    return new Promise((resolve, reject) => {
-      this.httpDataEquipos.subscribe(data => {
-        let newData = JSON.parse(JSON.stringify(data))
-        resolve(newData.filter(element => element.id == id))
-      }) 
-    })    
-  }
 }

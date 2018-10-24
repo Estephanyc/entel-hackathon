@@ -1,3 +1,6 @@
 <form [formGroup]="searchForm">
     <input #content formControlName="content" placeholder="search id" />
+    <button type="button" (click)="searcById()">search by id</button>
 </form>
+<app-equipo *ngFor="let item of equipo" [equipo]="item">
+</app-equipo>
