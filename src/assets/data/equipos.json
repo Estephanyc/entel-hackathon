@@ -1,0 +1,26 @@
+[{"equipo":"turbina eolica",
+  "id": "123asd456jkl",
+  "fecha inicio": "24-octubre-2016",
+  "modelo": "Entel",
+  "recinto": "planta 1",
+  "estado": "activo",
+  "coordenadas":"-33.4372,  -70.6506",
+  "sensores":{
+    "sensor1":"gfhsnt45",
+    "sensor2":"nbkdshsid",
+    "sensor3":"ty67w90s"
+}},
+
+{"equipo":"celular",
+  "id": "098yutyul",
+  "fecha inicio": "02-enero-2010",
+  "modelo": "xiami",
+  "recinto": "if italia",
+  "estado": "activo",
+  "coordenadas":"-34.1667, -70.75",
+  "sensores":{
+    "sensor1":"1234",
+    "sensor2":"abcdf",
+    "sensor3":"opiuy"
+}}
+]
