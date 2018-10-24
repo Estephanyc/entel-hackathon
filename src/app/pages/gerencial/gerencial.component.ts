@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-gerencial',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gerencial.component.css']
 })
 export class GerencialComponent implements OnInit {
+  equipos : any;
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private data: DataService) { 
   }
 
+  ngOnInit() {
+    this.data.equipos().subscribe(data => {
+       this.equipos = data
+    })
+    
+  }
+  
 }
