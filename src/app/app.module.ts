@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 //routing
 import { RouterModule, Routes } from '@angular/router';
@@ -23,8 +24,8 @@ const appRoutes: Routes = [
     component: OperacionalComponent
   },
 {
-  path: '',
-  component: OperacionalComponent
+  path: 'headers',
+  component: HeadersComponent
 },
 ];
 
@@ -38,16 +39,16 @@ const appRoutes: Routes = [
     EquipoComponent,
     SensorComponent,
     HeadersComponent,
+
     
-    
-    
+        
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),//ruta
-    
+  BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-  export class AppModule { }
+ export class AppModule { }
