@@ -8,6 +8,7 @@ import { OperacionalComponent } from './pages/operacional/operacional.component'
 import { ElementsComponent } from './elements/elements.component';
 import { EquipoComponent } from './elements/equipo/equipo.component';
 import { SensorComponent } from './elements/sensor/sensor.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,8 @@ import { SensorComponent } from './elements/sensor/sensor.component';
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

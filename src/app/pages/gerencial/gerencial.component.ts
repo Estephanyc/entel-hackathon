@@ -16,7 +16,5 @@ export class GerencialComponent implements OnInit {
     this.data.equipos().subscribe(data => {
        this.equipos = data
     })
-    
   }
-  
 }

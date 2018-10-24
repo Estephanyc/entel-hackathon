@@ -10,16 +10,18 @@ import { DataService } from '../../services/data.service';
 export class OperacionalComponent implements OnInit {
   searchForm: FormGroup;
 
-  constructor(private formBuilder: FormBuilder, private DataService:DataService) {
-    // this.search();
+  constructor(private formBuilder: FormBuilder, private data:DataService) {
+    this.search();
    }
 
   ngOnInit() {
-/*     this.DataService.equipoId('98989')
- */  }
-  /* search() {
+   this.data.equipoId("rtyuuo").then(equipo => {
+  console.log(equipo)
+   })
+   }
+  search() {
     this.searchForm = this.formBuilder.group({
       content: ['', Validators.required],
     });
-  } */
+  }
 }
