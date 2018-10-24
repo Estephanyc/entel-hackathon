@@ -7,6 +7,7 @@ import { OperacionalComponent } from './pages/operacional/operacional.component'
 import { ElementsComponent } from './elements/elements.component';
 import { EquipoComponent } from './elements/equipo/equipo.component';
 import { SensorComponent } from './elements/sensor/sensor.component';
+import { HeadersComponent } from './elements/headers/headers.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SensorComponent } from './elements/sensor/sensor.component';
     ElementsComponent,
     EquipoComponent,
     SensorComponent,
+    HeadersComponent,
   ],
   imports: [
     BrowserModule
