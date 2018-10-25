@@ -1,47 +1,44 @@
-<div class="nav-side-menu">
-    <div class="brand">Dashboard</div>
+<div class="nav-side-menu ">
+    <div class="text-center mt-3">
+        <img class="img1" style="width:100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyPXwP_ZD1c__1sHTBFB_kUetbHF8qt0nCevGVH-CZ95EkPAdTyg" alt="">
+    </div>
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
-  
-        <div class="menu-list">
-  
-            <ul id="menu-content" class="menu-content collapse out">
-                <li>
-                  <a href="#">
-                  <i class="fas fa-tachometer-alt fa-lg"></i> Dashboard
-                  </a>
-                </li>
 
-                <li  data-toggle="collapse" data-target="#products" class="collapsed active">
-                </li>
-             
+    <div class="menu-list">
 
-                <li data-toggle="collapse" data-target="#service" class="collapsed">
-                  <a href="#"><i class="fas fa-chart-line fa-lg"></i>Lorem<span class="arrow"></span></a>
-                </li>  
-                <ul class="sub-menu collapse" id="service">
-                  
-                </ul>
+        <ul id="menu-content" class="menu-content collapse out">
+            <li>
+                <a routerLink="/gerencial">
+                    <i class="fas fa-tachometer-alt fa-2x"></i> Dashboard
+                </a>
+            </li>
+            <li data-toggle="collapse" data-target="#service" class="collapsed">
+                <a routerLink="/analitica"><i class="fas fa-chart-line fa-2x"></i>Analítica<span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="service">
 
-
-                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#"><i class="fas fa-cogs fa-lg"></i> New <span class="arrow"></span></a>
-                </li>
-                <ul class="sub-menu collapse" id="new">
-                 
-                </ul>
-
-
-                 <li>
-                  <a href="#">
-                  <i class="fas fa-user-tie fa-lg"></i> Profile
-                  </a>
-                  </li>
-
-                 <li>
-                  <a href="#">
-                  <i class="fa fa-users fa-lg"></i> Users
-                  </a>
-                </li>
             </ul>
-     </div>
+
+
+            <li data-toggle="collapse" data-target="#new" class="collapsed">
+                <a routerLink="agregar-sensor"><i class="fas fa-plus-circle fa-2x"></i>Añadir Sensor <span class="arrow"></span></a>
+            </li>
+            <ul class="sub-menu collapse" id="new">
+
+            </ul>
+
+
+            <li>
+                <a href="#">
+                    <i class="fas fa-cogs fa-2x"></i> Configurar Rangos
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fas fa-sign-out-alt fa-2x"></i> Cerrar Sesión
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>

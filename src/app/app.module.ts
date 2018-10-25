@@ -50,7 +50,7 @@ const appRoutes: Routes = [
   },
   {
     path: 'analitica',
-    component: AnaliticaComponent
+    component: ListaEquiposComponent
   },
   {
     path: '',
