@@ -1,10 +1,22 @@
 <div class="card">
-    <div class="card-body">
-        <h5 class="card-title">Equipo: {{equipo.nombre}}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Id: {{equipo.id}}</h6>
-        <p class="card-text"> Fecha: {{equipo.fecha_inicio}}</p>
-        <p>Modelo :{{equipo.modelo}}</p>
-        <p>Recinto: {{equipo.recinto}}</p>
-        <p>coordenadas: {{equipo.coordenadas}}</p>
+    <div class="row">
+        <div class="col-2">
+            <h5 class="card-title">Equipo: {{equipo.nombre}}</h5>
+        </div>
+        <div class="col-2">
+            <h6 class="card-subtitle mb-2 text-muted">Id: {{equipo.id}}</h6>
+        </div>
+
+        <div class="col-2">
+            <p class="card-text"> Fecha: {{equipo.fecha_inicio}}</p>
+        </div>
+        <div class="col-2">
+            <p>Modelo :{{equipo.modelo}}</p>
+        </div>
+        <div class="col-2">
+            <p>Recinto: {{equipo.recinto}}</p>
+        </div>
+        <div class="col-2">
+            <p>coordenadas: {{equipo.coordenadas}}</p>
+        </div>
     </div>
-</div>
