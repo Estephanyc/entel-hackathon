@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import * as Highcharts from 'highcharts';
 //routing
 import { RouterModule, Routes } from '@angular/router';
 
@@ -10,6 +11,7 @@ import { OperacionalComponent } from './pages/operacional/operacional.component'
 import { ElementsComponent } from './elements/elements.component';
 import { EquipoComponent } from './elements/equipo/equipo.component';
 import { SensorComponent } from './elements/sensor/sensor.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeadersComponent } from './elements/headers/headers.component';
 import { FormComponent } from './form/form.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -60,6 +62,10 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),//ruta
   BrowserAnimationsModule,
   ],
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
