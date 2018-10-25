@@ -1,13 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-
-import * as Highcharts from 'highcharts';
 
 //routing
 import { RouterModule, Routes } from '@angular/router';
-
-import { HttpClientModule } from '@angular/common/http';
-
 
 import { AppComponent } from './app.component';
 import { GerencialComponent } from './pages/gerencial/gerencial.component';
@@ -17,6 +13,9 @@ import { EquipoComponent } from './elements/equipo/equipo.component';
 import { SensorComponent } from './elements/sensor/sensor.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeadersComponent } from './elements/headers/headers.component';
+import { FormComponent } from './form/form.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 //ruteo
@@ -30,8 +29,16 @@ const appRoutes: Routes = [
     component: OperacionalComponent
   },
 {
-  path: '',
-  component: OperacionalComponent
+  path: 'headers',
+  component: HeadersComponent
+},
+{
+  path: 'forms',
+  component: FormComponent
+},
+{
+  path: 'navbar',
+  component: NavbarComponent
 },
 ];
 
@@ -45,11 +52,16 @@ const appRoutes: Routes = [
     EquipoComponent,
     SensorComponent,
     HeadersComponent,
-      
+    FormComponent,
+    NavbarComponent,
+
+    
+        
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),//ruta
+  BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
@@ -57,4 +69,4 @@ const appRoutes: Routes = [
   providers: [],
   bootstrap: [AppComponent]
 })
-  export class AppModule { }
+ export class AppModule { }
