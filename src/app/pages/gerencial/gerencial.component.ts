@@ -118,6 +118,8 @@ export class GerencialComponent implements OnInit {
       }]
     });
 
+    
+
     chartEstados.render();
     chartDispositivos.render();
   }
