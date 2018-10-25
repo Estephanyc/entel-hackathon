@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import * as Highcharts from 'highcharts';
+
 //routing
 import { RouterModule, Routes } from '@angular/router';
 
@@ -51,7 +53,7 @@ const appRoutes: Routes = [
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -50,7 +50,7 @@
     {
         "id": "artey",
         "tipo": "aceleracion",
-        "estado": "activo",
+        "estado": "inactivo",
         "fecha_inicio": "12-diciembre-2013",
         "modelo": "audi",
         "planta": "if",
@@ -75,7 +75,7 @@
     {
         "id": "opmnb",
         "tipo": "voltios",
-        "estado": "activo",
+        "estado": "inactivo",
         "fecha_inicio": "18-agosto-2008",
         "modelo": "tesla",
         "planta": "casa",
