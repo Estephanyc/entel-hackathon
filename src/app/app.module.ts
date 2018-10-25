@@ -11,6 +11,7 @@ import { ElementsComponent } from './elements/elements.component';
 import { EquipoComponent } from './elements/equipo/equipo.component';
 import { SensorComponent } from './elements/sensor/sensor.component';
 import { HeadersComponent } from './elements/headers/headers.component';
+import { FormComponent } from './form/form.component';
 
 
 //ruteo
@@ -27,6 +28,10 @@ const appRoutes: Routes = [
   path: 'headers',
   component: HeadersComponent
 },
+{
+  path: 'forms',
+  component: FormComponent
+},
 ];
 
 
@@ -39,6 +44,7 @@ const appRoutes: Routes = [
     EquipoComponent,
     SensorComponent,
     HeadersComponent,
+    FormComponent,
 
     
         
