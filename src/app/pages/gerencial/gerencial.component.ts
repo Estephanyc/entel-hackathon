@@ -17,7 +17,6 @@ export class GerencialComponent implements OnInit {
   incidentes: any;
   mifuncion: any;
   numeroIncidentes: any;
-  
 
   constructor(private data: DataService) { 
    
@@ -117,8 +116,6 @@ export class GerencialComponent implements OnInit {
         ]
       }]
     });
-
-    
 
     chartEstados.render();
     chartDispositivos.render();
