@@ -1,7 +1,7 @@
 [{
         "id": "ugsdusdbs",
         "tipo": "temperatura",
-        "estado": "inactivo",
+        "estado": "activo",
         "fecha_inicio": "02-febrero-2016",
         "modelo": "xxxx",
         "planta": "laboratoria",
@@ -11,12 +11,12 @@
         },
         "bateria": "40%",
         "rangos": {
-            "min": "15°C",
-            "max": "30°C"
+            "min": "15",
+            "max": "30"
         },
         "tipo_medicion": "°C",
         "mediciones": {
-            "08-marzo-2017": "25",
+            "08-marzo-2017": "35",
             "09-marzo-2017": "28",
             "10-marzo-2017": "20",
             "11-marzo-2017": "15"
@@ -35,17 +35,18 @@
         },
         "bateria": "80%",
         "rangos": {
-            "min": "3000 metros",
-            "max": "5500 metros"
+            "min": "3000",
+            "max": "5500"
         },
         "tipo_medicion": "metros",
         "mediciones": {
-            "12-agosto-2007": "5500",
+            "12-agosto-2007": "6500",
             "13-agosto-2007": "3000",
             "14-agosto-2007": "3500",
             "15-agosto-2007": "4000"
         }
     },
+
     {
         "id": "artey",
         "tipo": "aceleracion",
@@ -59,8 +60,8 @@
         },
         "bateria": "75%",
         "rangos": {
-            "min": "40 Hz",
-            "max": "70 Hz"
+            "min": "40",
+            "max": "70"
         },
         "tipo_medicion": "Hz",
         "mediciones": {
@@ -70,10 +71,11 @@
             "18-marzo-2014": "60"
         }
     },
+
     {
         "id": "opmnb",
         "tipo": "voltios",
-        "estado": "inactivo",
+        "estado": "activo",
         "fecha_inicio": "18-agosto-2008",
         "modelo": "tesla",
         "planta": "casa",
@@ -83,8 +85,8 @@
         },
         "bateria": "15%",
         "rangos": {
-            "min": "20 V",
-            "max": "50 V"
+            "min": "20",
+            "max": "50"
         },
         "tipo_medicion": "V",
         "mediciones": {

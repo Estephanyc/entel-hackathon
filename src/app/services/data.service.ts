@@ -23,9 +23,9 @@ export class DataService {
         this.sensoresActivos = this.sensoresActivos.length
         this.sensoresInactivos = newData.filter(element => element.estado == "inactivo")
         this.sensoresInactivos = this.sensoresInactivos.length;
-        this.listeners.forEach(element => {
+        /* this.listeners.forEach(element => {
           element(data);
-        });
+        }); */
     })
     }
  
