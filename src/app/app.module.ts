@@ -19,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ListaEquiposComponent } from './pages/lista-equipos/lista-equipos.component';
 import { EstadoComponent } from './pages/estado/estado.component';
 import { IncidentesComponent } from './pages/incidentes/incidentes.component';
+import { AnaliticaComponent } from './pages/analitica/analitica.component';
 
 
 //ruteo
@@ -47,6 +48,10 @@ const appRoutes: Routes = [
     path: 'incidentes',
     component: IncidentesComponent
   },
+  {
+    path: 'analitica',
+    component: AnaliticaComponent
+  },
 ];
 
 
@@ -64,6 +69,7 @@ const appRoutes: Routes = [
     ListaEquiposComponent,
     EstadoComponent,
     IncidentesComponent,
+    AnaliticaComponent,
 
     
         

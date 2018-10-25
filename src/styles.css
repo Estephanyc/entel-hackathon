@@ -3,12 +3,12 @@ body {
 }
 
 .bg-one {
-    background-color: #f16b46;
+    background-color: #4280eb;
     color: #fff;
 }
 
 .bg-two {
-    background-color: #4280eb;
+    background-color: #f16b46;
     color: #fff;
 }
 
@@ -26,11 +26,11 @@ body {
 }
 
 .border-one {
-    border: 1px solid #f16b46;
+    border: 1px solid #4280eb;
 }
 
 .border-two {
-    border: 1px solid #4280eb;
+    border: 1px solid #f16b46;
 }
 
 .border-three {
@@ -43,4 +43,22 @@ body {
 
 .color-one {
     color: #4280eb;
+}
+
+.fondoIcono {
+    background-color: #a9a8a9;
+}
+
+.icono {
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+}
+
+#parrafo {
+    color: white;
+}
+
+#fondo {
+    background-color: #f16b46;
 }
