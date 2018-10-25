@@ -1,31 +1,33 @@
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <!-- <app-equipo *ngFor="let equipo of sensores" [equipo]="equipo" class="col-4">
         </app-equipo> -->
     </div>
-    <div class="row shadow-sm p-3 mb-5 bg-white rounded dataInfo">
-        <div class="col-4">
+    <div class="row dataInfo border-one">
+        <div class="col-4 bg-one p-2">
             <p>total de dispositivos agregados:</p>
-            <p class="total">{{totalSensores}}</p>
+            <p>{{totalSensores}}</p>
+            <button class="btn" routerLink="/lista-sensores">Ver lista</button>
         </div>
         <div class="col-8">
             <div id="dispositivos" style="height: 150px; width: 100%;"></div>
         </div>
     </div>
-    <div class="row shadow-sm p-3 mb-5 bg-white rounded dataInfo">
-        <div class="col-4">
-            Dispositivos activos:
-            <p> {{sensoresActivos}}</p>
-            Dispositivos inactivos
-            <p> {{sensoresInactivos}}</p>
+    <div class="row dataInfo border-two">
+        <div class="col-4 bg-two p-2">
+            <p>Dispositivos activos: {{sensoresActivos}}</p>
+            <p> Dispositivos inactivos {{sensoresInactivos}}</p>
+            <button class="btn " routerLink="/estado-sensores">Ver detalles</button>
         </div>
         <div class="col-8">
             <div id="estados" style="height: 150px; width: 100%;"></div>
         </div>
     </div>
-    <div class="row shadow-sm p-3 mb-5 bg-white rounded dataInfo">
-        <div class="col-4">
+    <div class="row dataInfo border-three">
+        <div class="col-4 bg-three border-three p-2">
             <p> incidentes {{numeroIncidentes}}</p>
+            <button class="btn " routerLink="/lista-sensores">Ver detalles</button>
         </div>
+        <div class="col-8"></div>
     </div>
 </div>

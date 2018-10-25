@@ -1,0 +1,38 @@
+.bg-one {
+    background-color: #f16b46;
+    color: #fff;
+}
+
+.bg-two {
+    background-color: #4280eb;
+    color: #fff;
+}
+
+.bg-three {
+    background-color: #a9a8a9;
+    color: #fff;
+}
+
+.bg-for {
+    background-color: #e9e6e0
+}
+
+.bg-five {
+    background-color: #faf9f9
+}
+
+.border-one {
+    border: 1px solid #f16b46;
+}
+
+.border-two {
+    border: 1px solid #4280eb;
+}
+
+.border-three {
+    border: 1px solid #a9a8a9;
+}
+
+.border-for {
+    border: 1px solid #e9e6e0;
+}
