@@ -1,52 +1,97 @@
-{
-  "gfhsnt45": {
-    "id": "123asd456jkl"
-  },
-  "nbkdshsid": {
-    "id": "123asd456jkl"
-  },
-
-  "ty67w90s": {
-    "id": "123asd456jkl"
-  },
-
-
-  "1234": {
-    "id": "098yutyul"
-  },
-  "abcdf": {
-    "id": "098yutyul"
-  },
-  "opiuy": {
-    "id": "098yutyul"
-  },
-
-
-  "asxq": {
-    "id": "dfghjkl"
-  },
-  "pomn": {
-    "id": "dfghjkl"
-  },
-  "ubvcg": {
-    "id": "dfghjkl"
-  },
-
-
-
-  "dfffsdf": {
-    "id": "rtyuuol"
-  },
-  "sdadslll": {
-    "id": "rtyuuol"
-  },
-  "lkskcks": {
-    "id": "rtyuuol"
-  },
-
-
-  
-  "1122": {
-    "id": "aassdd"
-  }
-}
+[{
+        "id": "ugsdusdbs",
+        "tipo": "temperatura",
+        "estado": "inactivo",
+        "fecha_inicio": "02-febrero-2016",
+        "modelo": "xxxx",
+        "planta": "laboratoria",
+        "posicion": {
+            "latitud": "-33",
+            "longitud": "-34"
+        },
+        "bateria": "40%",
+        "rangos": {
+            "min": "15°C",
+            "max": "30°C"
+        },
+        "tipo_medicion": "°C",
+        "mediciones": {
+            "08-marzo-2017": "25",
+            "09-marzo-2017": "28",
+            "10-marzo-2017": "20",
+            "11-marzo-2017": "15"
+        }
+    },
+    {
+        "id": "rtydu",
+        "tipo": "altitud",
+        "estado": "activo",
+        "fecha_inicio": "25-junio-2006",
+        "modelo": "kjsf",
+        "planta": "entel",
+        "posicion": {
+            "latitud": "-33,789",
+            "longitud": "-34,452"
+        },
+        "bateria": "80%",
+        "rangos": {
+            "min": "3000 metros",
+            "max": "5500 metros"
+        },
+        "tipo_medicion": "metros",
+        "mediciones": {
+            "12-agosto-2007": "5500",
+            "13-agosto-2007": "3000",
+            "14-agosto-2007": "3500",
+            "15-agosto-2007": "4000"
+        }
+    },
+    {
+        "id": "artey",
+        "tipo": "aceleracion",
+        "estado": "activo",
+        "fecha_inicio": "12-diciembre-2013",
+        "modelo": "audi",
+        "planta": "if",
+        "posicion": {
+            "latitud": "-32,3456",
+            "longitud": "-34,56498"
+        },
+        "bateria": "75%",
+        "rangos": {
+            "min": "40 Hz",
+            "max": "70 Hz"
+        },
+        "tipo_medicion": "Hz",
+        "mediciones": {
+            "15-marzo-2014": "55",
+            "16-marzo-2014": "40",
+            "17-marzo-2014": "65",
+            "18-marzo-2014": "60"
+        }
+    },
+    {
+        "id": "opmnb",
+        "tipo": "voltios",
+        "estado": "inactivo",
+        "fecha_inicio": "18-agosto-2008",
+        "modelo": "tesla",
+        "planta": "casa",
+        "posicion": {
+            "latitud": "-31,89764",
+            "longitud": "-31, 99876"
+        },
+        "bateria": "15%",
+        "rangos": {
+            "min": "20 V",
+            "max": "50 V"
+        },
+        "tipo_medicion": "V",
+        "mediciones": {
+            "19-septiembre-2009": "35",
+            "20-septiembre-2009": "45",
+            "21-septiembre-2009": "20",
+            "22-septiembre-2009": "25"
+        }
+    }
+]

@@ -9,13 +9,19 @@ import { DataService } from '../../services/data.service';
 })
 export class OperacionalComponent implements OnInit {
   searchForm: FormGroup;
-  equipo : any;
+  totalSensores: any;
+  sensores: any;
 
   constructor(private formBuilder: FormBuilder, private data:DataService) {
     this.search();
    }
 
   ngOnInit() {
+    this.data.getSensores().subscribe(data => {
+      this.sensores = data;
+      let newData = JSON.parse(JSON.stringify(data))
+      this.totalSensores = newData.length
+   })
    }
   search() {
     this.searchForm = this.formBuilder.group({
@@ -26,7 +32,7 @@ export class OperacionalComponent implements OnInit {
     this.data.httpDataEquipos.subscribe(data => {
       let newData = JSON.parse(JSON.stringify(data))
       newData = newData.filter(element => element.id == this.searchForm.value.content)
-      this.equipo =  newData;
+      this.sensores =  newData;
     })
-  } 
+  }
 }

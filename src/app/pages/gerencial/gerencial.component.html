@@ -1,2 +1,15 @@
-<app-equipo *ngFor="let equipo of equipos" [equipo]="equipo">
-</app-equipo>
+<div class="container">
+    <div class="row">
+        <app-equipo *ngFor="let equipo of sensores" [equipo]="equipo" class="col-4">
+        </app-equipo>
+    </div>
+    <p>
+        total de dispositivos agregados:{{totalSensores}}
+    </p>
+    <p>
+        Dispositivos activos: {{sensoresActivos}}
+    </p>
+    <p>
+        Dispositivos inactivos: {{sensoresInactivos}}
+    </p>
+</div>
