@@ -1,0 +1,73 @@
+[{
+        "nombre": "turbina eolica",
+        "id": "123asd456jkl",
+        "fecha_inicio": "24-octubre-2016",
+        "modelo": "Entel",
+        "recinto": "planta 1",
+        "estado": "activo",
+        "coordenadas": {
+            "latitud": "-33.4372",
+            "longitud": "-70.6506"
+        },
+        "sensores": {
+            "sensor1": "gfhsnt45",
+            "sensor2": "nbkdshsid",
+            "sensor3": "ty67w90s"
+        }
+    },
+
+    {
+        "nombre": "celular",
+        "id": "098yutyul",
+        "fecha_inicio": "02-enero-2010",
+        "modelo": "xiaomi",
+        "recinto": "if italia",
+        "estado": "activo",
+        "coordenadas": {
+            "latitud": "-34.1667",
+            "longitud": "-70.75"
+        },
+        "sensores": {
+            "sensor1": "1234",
+            "sensor2": "abcdf",
+            "sensor3": "opiuy"
+        }
+    },
+
+    {
+        "nombre": "automovil",
+        "id": "dfghjkl",
+        "fecha_inicio": "26-marzo-2012",
+        "modelo": "audi",
+        "recinto": "automotora",
+        "estado": "activo",
+        "coordenadas": {
+            "latitud": "-33",
+            "longitud": "-71.5167"
+        },
+        "sensores": {
+            "sensor1": "asxq",
+            "sensor2": "pomn",
+            "sensor3": "ubvcg"
+        }
+    },
+
+    {
+        "nombre": "avion",
+        "id": "rtyuuo",
+        "fecha_inicio": "15-diciembre-2015",
+        "modelo": "A321",
+        "recinto": "aeropuerto",
+        "estado": "activo",
+        "coordenadas": {
+            "latitud": "-33.392777777778",
+            "longitud": "-70.785555555556"
+        },
+        "sensores": {
+            "sensor1": "dfffsdf",
+            "sensor2": "sdadslll",
+            "sensor3": "lkskcks"
+        }
+    }
+
+]
