@@ -52,6 +52,10 @@ const appRoutes: Routes = [
     path: 'analitica',
     component: AnaliticaComponent
   },
+  {
+    path: '',
+    component: GerencialComponent
+  },
 ];
 
 
