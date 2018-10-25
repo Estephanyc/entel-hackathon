@@ -1,3 +1,12 @@
-<!-- <form [formGroup]="searchForm">
-    <input #content formControlName="content" placeholder="search id" />
-</form> -->
+<div class="container">
+    <div class="row">
+        <form [formGroup]="searchForm">
+            <input #content formControlName="content" placeholder="search id" />
+            <button type="button" (click)="searcById()">search by id</button>
+        </form>
+    </div>
+    <div class="row">
+        <app-equipo *ngFor="let item of sensores" [equipo]="item" class="col-4 mb-1">
+        </app-equipo>
+    </div>
+</div>

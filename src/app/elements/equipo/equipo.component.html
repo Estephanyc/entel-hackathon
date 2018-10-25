@@ -1,22 +1,10 @@
-<p>nombre: {{equipo.equipo}}
-</p>
-<p>
-    id : {{equipo.id}}
-</p>
-<p>
-    fecha: {{equipo.fecha_inicio}}
-</p>
-<p>
-    modelo :{{equipo.modelo}}
-</p>
-<p>
-    recinto: {{equipo.recinto}}
-</p>
-
-<p>
-    coordenadas: {{equipo.coordenadas}}
-
-</p>
-<p>
-    equipo: {{equipo.sensores}}
-</p>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Equipo: {{equipo.nombre}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Id: {{equipo.id}}</h6>
+        <p class="card-text"> Fecha: {{equipo.fecha_inicio}}</p>
+        <p>Modelo :{{equipo.modelo}}</p>
+        <p>Recinto: {{equipo.recinto}}</p>
+        <p>coordenadas: {{equipo.coordenadas}}</p>
+    </div>
+</div>

@@ -1,2 +1,28 @@
-<app-equipo *ngFor="let equipo of equipos" [equipo]="equipo">
-</app-equipo>
+<div class="container">
+    <div class="row">
+        <!-- <app-equipo *ngFor="let equipo of sensores" [equipo]="equipo" class="col-4">
+        </app-equipo> -->
+    </div>
+    <div class="row shadow-sm p-3 mb-5 bg-white rounded dataInfo">
+        <div class="col-4">
+            <p>total de dispositivos agregados:</p>
+            <p class="total">{{totalSensores}}</p>
+        </div>
+        <div class="col-8">
+            <div id="chartContainer" style="height: 150px; width: 100%;"></div>
+        </div>
+    </div>
+    <div class="row shadow-sm p-3 mb-5 bg-white rounded dataInfo">
+        <div class="col-4">
+            Dispositivos activos:
+            <p> {{sensoresActivos}}</p>
+            Dispositivos inactivos
+            <p> {{sensoresInactivos}}</p>
+        </div>
+    </div>
+    <div class="row shadow-sm p-3 mb-5 bg-white rounded dataInfo">
+        <div class="col-4">
+            <p> incidentes {{numeroIncidentes}}</p>
+        </div>
+    </div>
+</div>
