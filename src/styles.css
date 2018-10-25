@@ -1,3 +1,7 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
 .bg-one {
     background-color: #f16b46;
     color: #fff;
@@ -35,4 +39,8 @@
 
 .border-for {
     border: 1px solid #e9e6e0;
+}
+
+.color-one {
+    color: #4280eb;
 }

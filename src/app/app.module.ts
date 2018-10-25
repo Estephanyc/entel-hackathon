@@ -40,7 +40,7 @@ const appRoutes: Routes = [
     component: EstadoComponent
   },
 {
-  path: 'agregar-operador',
+  path: 'agregar-sensor',
   component: FormComponent
 },
   {

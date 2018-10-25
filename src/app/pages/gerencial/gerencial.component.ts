@@ -52,12 +52,30 @@ export class GerencialComponent implements OnInit {
 
       this.numeroIncidentes = this.incidentes.length;
     })
+
+
+    CanvasJS.addColorSet("customColorSet2",
+      [//colorSet Array
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+        "#4280EB",
+      ]); 
     let chartDispositivos = new CanvasJS.Chart("dispositivos", {
       animationEnabled: true,
       exportEnabled: true,
       title: {
         text: "N° de dispositivos año 2017"
       },
+      colorSet: "customColorSet2",
       data: [{
         type: "column",
         dataPoints: [
@@ -77,6 +95,34 @@ export class GerencialComponent implements OnInit {
       }]
     });
 
+    CanvasJS.addColorSet("customColorSet1",
+      [//colorSet Array
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46",
+        "#4280EB",
+        "#F16B46"
+      ]);
+
     let chartEstados = new CanvasJS.Chart("estados", {
       animationEnabled: true,
       exportEnabled: true,
@@ -86,6 +132,7 @@ export class GerencialComponent implements OnInit {
       subtitles: [{
         text: "A: Avtivo, I: Inactivo"
       }],
+      colorSet: "customColorSet1",
       data: [{
         type: "column",
         dataPoints: [

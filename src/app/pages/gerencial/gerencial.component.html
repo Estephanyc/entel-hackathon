@@ -13,8 +13,8 @@
             <div id="dispositivos" style="height: 150px; width: 100%;"></div>
         </div>
     </div>
-    <div class="row dataInfo border-two">
-        <div class="col-4 bg-two p-2">
+    <div class="row dataInfo border-three ">
+        <div class="col-4 bg-three p-2">
             <p>Dispositivos activos: {{sensoresActivos}}</p>
             <p> Dispositivos inactivos {{sensoresInactivos}}</p>
             <button class="btn " routerLink="/estado-sensores">Ver detalles</button>
@@ -23,11 +23,13 @@
             <div id="estados" style="height: 150px; width: 100%;"></div>
         </div>
     </div>
-    <div class="row dataInfo border-three">
-        <div class="col-4 bg-three border-three p-2">
+    <div class="row dataInfo border-two">
+        <div class="col-4 bg-two  border-three p-2">
             <p> incidentes {{numeroIncidentes}}</p>
             <button class="btn " routerLink="/incidentes">Ver detalles</button>
         </div>
-        <div class="col-8"></div>
+        <div class="col-8">
+            <img src="../../../assets/img/grafica-incidentes.jpeg" alt="" height="170">
+        </div>
     </div>
 </div>

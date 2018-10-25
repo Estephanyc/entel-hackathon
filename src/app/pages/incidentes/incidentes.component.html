@@ -3,34 +3,21 @@
         <h2>Incidentes</h2>
     </div>
     <div class="row border-three">
-        <div class="col-2 bg-three p-2">
-            <p>Ultimos dispositivos</p>
-            <p>{{totalSensores}}</p>
+        <div class="col-2  bg-two p-2">
+            <p>Tipo de incidentes</p>
         </div>
         <div class="col-10">
-            <div *ngFor="let sensor of sensores" class="row bg-five mb-1 p-2">
-                <div class="col-2">
-                    <span>id:{{sensor.id}} </span>
-                </div>
-                <div class="col-3">
-                    {{sensor.tipo}}
-                </div>
-                <div class="col-4">
-                    Instalado: {{sensor.fecha_inicio}}
-                </div>
-                <div class="col-3">
-                    {{sensor.planta}}
-                </div>
-            </div>
+            <div id="chartIncidentes" style="height: 250px; width: 100%;"></div>
+
         </div>
     </div>
     <div class="row mt-5">
         <table class="table table-striped border-three">
-            <thead class="bg-three">
+            <thead class=" bg-two">
                 <tr>
-                    <th scope="col">Id</th>
+                    <th scope="col"><i class="fas fa-id-badge"></i> Id</th>
                     <th scope="col">Tipo</th>
-                    <th scope="col">Estado</th>
+                    <th scope="col"><i class="fas fa-file-medical-alt"></i> Estado</th>
                     <th scope="col"><i class="fas fa-calendar-alt"></i> Fecha</th>
                     <th scope="col"><i class="far fa-building"></i> Lugar</th>
                     <th scope="col"><i class="fas fa-map-marker-alt"></i> Lat</th>
