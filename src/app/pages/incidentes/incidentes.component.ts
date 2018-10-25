@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
 
 @Component({
-  selector: 'app-estado',
-  templateUrl: './estado.component.html',
-  styleUrls: ['./estado.component.css']
+  selector: 'app-incidentes',
+  templateUrl: './incidentes.component.html',
+  styleUrls: ['./incidentes.component.css']
 })
-export class EstadoComponent implements OnInit {
+export class IncidentesComponent implements OnInit {
   sensores: any;
 
   constructor(private data: DataService) { }
@@ -16,4 +16,5 @@ export class EstadoComponent implements OnInit {
       this.sensores = data
     })
   }
+
 }

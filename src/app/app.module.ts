@@ -18,6 +18,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ListaEquiposComponent } from './pages/lista-equipos/lista-equipos.component';
 import { EstadoComponent } from './pages/estado/estado.component';
+import { IncidentesComponent } from './pages/incidentes/incidentes.component';
 
 
 //ruteo
@@ -42,7 +43,10 @@ const appRoutes: Routes = [
   path: 'agregar-operador',
   component: FormComponent
 },
-
+  {
+    path: 'incidentes',
+    component: IncidentesComponent
+  },
 ];
 
 
@@ -59,6 +63,7 @@ const appRoutes: Routes = [
     NavbarComponent,
     ListaEquiposComponent,
     EstadoComponent,
+    IncidentesComponent,
 
     
         
