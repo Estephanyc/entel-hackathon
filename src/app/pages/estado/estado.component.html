@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="row">
+        <h2>Estado de dispositivos</h2>
+    </div>
+    <div class="row border-three">
+        <div class="col-2 bg-three p-2">
+            <p>Ultimos dispositivos</p>
+            <p>{{totalSensores}}</p>
+        </div>
+        <div class="col-10">
+            <div *ngFor="let sensor of sensores" class="row bg-five mb-1 p-2">
+                <div class="col-2">
+                    <span>id:{{sensor.id}} </span>
+                </div>
+                <div class="col-3">
+                    {{sensor.tipo}}
+                </div>
+                <div class="col-4">
+                    Instalado: {{sensor.fecha_inicio}}
+                </div>
+                <div class="col-3">
+                    {{sensor.planta}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <table class="table table-striped border-three">
+            <thead class="bg-three">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col"><i class="fas fa-calendar-alt"></i> Fecha</th>
+                    <th scope="col"><i class="far fa-building"></i> Lugar</th>
+                    <th scope="col"><i class="fas fa-map-marker-alt"></i> Lat</th>
+                    <th scope="col"><i class="fas fa-map-marker-alt"></i> Lng</th>
+                    <th scope="col"><i class="fas fa-charging-station"></i> Bateria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let sensor of sensores">
+                    <th scope="row">{{sensor.id}}</th>
+                    <td>{{sensor.tipo}}</td>
+                    <td>{{sensor.estado}}</td>
+
+                    <td>{{sensor.fecha_inicio}}</td>
+                    <td>{{sensor.planta}}</td>
+                    <td>{{sensor.posicion.latitud}}</td>
+                    <td>{{sensor.posicion.longitud}}</td>
+                    <td>{{sensor.bateria}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

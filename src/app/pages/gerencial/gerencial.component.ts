@@ -17,7 +17,6 @@ export class GerencialComponent implements OnInit {
   incidentes: any;
   mifuncion: any;
   numeroIncidentes: any;
-  
 
   constructor(private data: DataService) { 
    
@@ -53,29 +52,75 @@ export class GerencialComponent implements OnInit {
 
       this.numeroIncidentes = this.incidentes.length;
     })
-    let chart = new CanvasJS.Chart("chartContainer", {
+    let chartDispositivos = new CanvasJS.Chart("dispositivos", {
       animationEnabled: true,
       exportEnabled: true,
       title: {
-        text: "Basic Column Chart in Angular"
+        text: "N° de dispositivos año 2017"
       },
       data: [{
         type: "column",
         dataPoints: [
-          { y: 71, label: "Apple" },
-          { y: 55, label: "Mango" },
-          { y: 50, label: "Orange" },
-          { y: 65, label: "Banana" },
-          { y: 95, label: "Pineapple" },
-          { y: 68, label: "Pears" },
-          { y: 28, label: "Grapes" },
-          { y: 34, label: "Lychee" },
-          { y: 14, label: "Jackfruit" }
+          { y: 1, x: 4, label: "Enero" },
+          { y: 2, label: "Febrero" },
+          { y: 2, label: "Marzo" },
+          { y: 1, label: "Abril" },
+          { y: 1, label: "Mayo" },
+          { y: 0, label: "Junio" },
+          { y: 2, label: "Julio" },
+          { y: 1, label: "Agosto" },
+          { y: 2, label: "Septiembre" },
+          { y: 0, label: "Octubre" },
+          { y: 1, label: "Noviembre" },
+          { y: 4, label: "Diciembre" }
         ]
       }]
     });
 
-    chart.render();
+    let chartEstados = new CanvasJS.Chart("estados", {
+      animationEnabled: true,
+      exportEnabled: true,
+      title: {
+        text: "Dispositivos activos e inactivos"
+      },
+      subtitles: [{
+        text: "A: Avtivo, I: Inactivo"
+      }],
+      data: [{
+        type: "column",
+        dataPoints: [
+          { y: 71, label: "A, ene" },
+          { y: 55, label: "I, ene" },
+          { y: 50, label: "A, feb" },
+          { y: 65, label: "I, feb" },
+          { y: 95, label: "A, mar" },
+          { y: 68, label: "I, mar" },
+          { y: 28, label: "A, abr" },
+          { y: 34, label: "I, abr" },
+          { y: 14, label: "A, may" },
+          { y: 71, label: "I, may" },
+          { y: 55, label: "A, jun" },
+          { y: 50, label: "I, jun" },
+          { y: 65, label: "A, jul" },
+          { y: 95, label: "I, jul" },
+          { y: 68, label: "A, ago" },
+          { y: 28, label: "I, ago" },
+          { y: 34, label: "A, sept" },
+          { y: 14, label: "I, sept" },
+          { y: 65, label: "A, oct" },
+          { y: 95, label: "I, oct" },
+          { y: 68, label: "A, nov" },
+          { y: 28, label: "I, nov" },
+          { y: 34, label: "A, dic" },
+          { y: 14, label: "I, dic" }
+        ]
+      }]
+    });
+
+    chartEstados.render();
+    chartDispositivos.render();
+  }
+
   }
 
   /* miFuncion(data){
@@ -86,4 +131,4 @@ export class GerencialComponent implements OnInit {
     this.data.listeners.
   } */
 
-}
+
