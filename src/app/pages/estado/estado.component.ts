@@ -10,6 +10,7 @@ import * as CanvasJS from '../../../assets/canvas/canvasjs.min.js';
 })
 export class EstadoComponent implements OnInit {
   sensores: any;
+  totalSensores: any;
 
   constructor(private data: DataService) { }
 
@@ -20,7 +21,7 @@ export class EstadoComponent implements OnInit {
         "#F16B46",
       ]);
     this.data.getSensores().subscribe(data => {
-      this.sensores = data
+      this.sensores = data;
     })
 
     let chart = new CanvasJS.Chart("chartEstado", {
